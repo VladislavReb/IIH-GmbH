@@ -1,0 +1,194 @@
+.footer {
+  .footer_wrapper {
+    .fw_main {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 25px;
+
+      .footer_img {
+        width: 200px;
+        height: 85px;
+      }
+
+      .footer_contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .contact {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          & > img {
+            width: 35px;
+            height: 35px;
+          }
+        }
+      }
+
+      .footer_links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        &>a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .footer_separ {
+      width: 100%;
+      height: 1px;
+      border: 1px solid black;
+    }
+
+    .autograph {
+      padding: 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+
+      & > a {
+        text-decoration: underline;
+        font-size: 14px;
+      }
+
+      & > p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .footer {
+    .footer_wrapper {
+      .autograph {
+        & > a {
+          font-size: 12px;
+        }
+
+        & > p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 594px) {
+  .footer {
+    .footer_wrapper {
+      .fw_main {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 25px;
+        gap: 25px;
+
+        .footer_img {
+          margin-top: -15px;
+          width: 320px;
+          height: 115px;
+        }
+
+        .footer_contacts {
+          .contact {
+            & > img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
+
+      .autograph {
+        & > a {
+          font-size: 12px;
+        }
+
+        & > p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .footer {
+    .footer_wrapper {
+      .fw_main {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 25px;
+        gap: 25px;
+
+        .footer_img {
+          margin-top: -15px;
+          width: 320px;
+          height: 115px;
+        }
+
+        .footer_contacts {
+          .contact {
+            & > img {
+              width: 27px;
+              height: 27px;
+            }
+          }
+        }
+      }
+
+      .autograph {
+        & > a {
+          font-size: 12px;
+        }
+
+        & > p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 379px) {
+  .footer {
+    .footer_wrapper {
+      .fw_main {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 25px;
+        gap: 25px;
+
+        .footer_img {
+          margin-top: -15px;
+          width: 320px;
+          height: 115px;
+        }
+
+        .footer_contacts {
+          .contact {
+            & > img {
+              width: 27px;
+              height: 27px;
+            }
+          }
+        }
+      }
+
+      .autograph {
+        & > a {
+          font-size: 10px;
+        }
+
+        & > p {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

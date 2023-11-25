@@ -1,0 +1,9 @@
+.first_section {
+  display: flex;
+  flex-direction: column;
+}
+.first_section .fs__first_part {
+  display: flex;
+}
+
+/*# sourceMappingURL=first_section.css.map */

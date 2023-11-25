@@ -1,0 +1,12 @@
+.third_section {
+  padding: 90px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.third_section .thi_sect__title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*# sourceMappingURL=third_section.css.map */

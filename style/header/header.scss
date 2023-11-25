@@ -1,0 +1,130 @@
+.header {
+  padding: 5px;
+
+  .nav_bar {
+    padding: 0 10px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo > img {
+      width: 250px;
+      height: 110px;
+    }
+
+    &__link {
+      font-size: 18px;
+      font-weight: 600;
+      color: $corp_color;
+    }
+
+    :hover {
+      text-decoration: underline;
+    }
+  }
+
+  .mob_header, .mob_header__content {
+    display: none;
+    z-index: 10;
+  }
+
+  .header_sep {
+    width: 100%;
+    height: 1px;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .header {
+    .nav_bar {
+      &__logo > img {
+        width: 290px;
+        height: 150px;
+      }
+
+      &__link {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    .nav_bar {
+      display: none;
+    }
+
+    .mob_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__logo {
+        & > img {
+          width: 200px;
+          height: 110px;
+        }
+      }
+
+      &__dash {
+        margin: 3px 20px 0 0;
+        width: 34px;
+        height: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        & div {
+          width: 34px;
+          height: 3px;
+          background-color: $corp_color;
+          flex-shrink: 0;
+        }
+      }
+    }
+
+    .mob_header__content {
+      position: absolute;
+      top: 0;
+      right: 0;
+      min-width: 320px;
+      min-height: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      gap: 45px;
+      padding: 30px 25px 65px;
+      background-color: gray;
+      transform: translateY(-150%);
+      /*animation: header 2s forwards;*/ //JS code do it.
+
+      @keyframes header {
+        0% {transform: translateY(-150%);}
+        100% {transform: translateY(0);}
+      }
+
+      @keyframes headerBack {
+        0% {transform: translateY(0);}
+        100% {transform: translateY(-150%);}
+      }
+
+      & > a {
+        font-size: 19px;
+        font-weight: bold;
+        color: $mt_color;
+
+        &:hover {
+          color: $corp_color;
+        }
+      }
+
+      & > img {
+        align-self: end;
+      }
+    }
+  }
+}

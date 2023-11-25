@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Montserrat:wght@200&family=Open+Sans:wght@300;400&family=Paytone+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=general.css.map */
