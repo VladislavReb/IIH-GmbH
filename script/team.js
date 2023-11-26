@@ -36,7 +36,7 @@ const targetElem3 = document.querySelector('.empl_group_2');
 
 const optionsRender = {
     root: null,
-    threshold: 1,
+    threshold: 0.5,
 };
 
 const observerSecond = new IntersectionObserver(comePhotoBlocks, optionsRender);
