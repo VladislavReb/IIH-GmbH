@@ -280,8 +280,8 @@
         }
 
         .group_1, .group_2 {
-          transform: none;
-          animation: none;
+          transform: translateX(0) !important;
+          animation: none !important;
         }
       }
     }
@@ -344,8 +344,8 @@
         }
 
         .group_1, .group_2 {
-          transform: none;
-          animation: none;
+          transform: translateX(0) !important;
+          animation: none !important;
         }
       }
     }
@@ -410,8 +410,8 @@
         }
 
         .group_1, .group_2 {
-          transform: none;
-          animation: none;
+          transform: translateX(0) !important;
+          animation: none !important;
         }
       }
     }
