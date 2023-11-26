@@ -55,10 +55,11 @@
   }
 
   .slick-dots li > button {
-    width:14px;
-    height:14px;
-    background-color: $corp_color;
-    border:1px solid $corp_color;
+    width:11px;
+    height:11px;
+    background-color: #cbc6c6;
+    border:1px solid #cbc6c6;
+    border-radius: 25px;
     font-size: 0;
   }
 }

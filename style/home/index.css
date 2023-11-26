@@ -588,10 +588,11 @@ h1 {
   list-style-type: none;
 }
 .fourth_section .slick-dots li > button {
-  width: 14px;
-  height: 14px;
-  background-color: #508CD7;
-  border: 1px solid #508CD7;
+  width: 11px;
+  height: 11px;
+  background-color: #cbc6c6;
+  border: 1px solid #cbc6c6;
+  border-radius: 25px;
   font-size: 0;
 }
 
