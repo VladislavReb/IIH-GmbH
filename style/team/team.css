@@ -440,7 +440,8 @@ h1 {
     height: 160px;
   }
   .first_section__wrapper .team_employers .group_1, .first_section__wrapper .team_employers .group_2 {
-    transform: translateX(0);
+    transform: none;
+    animation: none;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 411px) {
@@ -493,7 +494,8 @@ h1 {
     height: 160px;
   }
   .first_section__wrapper .team_employers .group_1, .first_section__wrapper .team_employers .group_2 {
-    transform: translateX(0);
+    transform: none;
+    animation: none;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 379px) {
@@ -549,7 +551,8 @@ h1 {
     height: 160px;
   }
   .first_section__wrapper .team_employers .group_1, .first_section__wrapper .team_employers .group_2 {
-    transform: translateX(0);
+    transform: none;
+    animation: none;
   }
 }
 .footer .footer_wrapper .fw_main {

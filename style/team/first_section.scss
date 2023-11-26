@@ -280,7 +280,8 @@
         }
 
         .group_1, .group_2 {
-          transform: translateX(0);
+          transform: none;
+          animation: none;
         }
       }
     }
@@ -343,7 +344,8 @@
         }
 
         .group_1, .group_2 {
-          transform: translateX(0);
+          transform: none;
+          animation: none;
         }
       }
     }
@@ -408,7 +410,8 @@
         }
 
         .group_1, .group_2 {
-          transform: translateX(0);
+          transform: none;
+          animation: none;
         }
       }
     }
