@@ -570,9 +570,29 @@ h1 {
   box-shadow: 0 10px 10px black;
   margin-bottom: 23px;
 }
+.fourth_section .slick-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
 .fourth_section .slick-center {
   filter: contrast(100%) !important;
   transform: scale(1.3);
+}
+.fourth_section .slick-dots {
+  display: flex;
+  gap: 10px;
+}
+.fourth_section .slick-dots li {
+  list-style-type: none;
+}
+.fourth_section .slick-dots li > button {
+  width: 14px;
+  height: 14px;
+  background-color: #508CD7;
+  border: 1px solid #508CD7;
+  font-size: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

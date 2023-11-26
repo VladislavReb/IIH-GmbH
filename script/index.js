@@ -33,6 +33,7 @@ $(document).ready(function(){
         variableWidth: true,
         nextArrow: false,
         prevArrow: false,
+        dots: true,
         speed: 500,
         responsive: [
             {
