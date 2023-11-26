@@ -654,12 +654,12 @@ h1 {
   }
 }
 .fifth_section {
-  padding: 0 0 90px 0;
+  padding: 15px 0 90px 0;
 }
 
 @media screen and (min-width: 595px) and (max-width: 767px) {
   .fifth_section {
-    padding: 0 0 45px 0;
+    padding: 15px 0 45px 0;
   }
   .fifth_section .google_map {
     height: 300px !important;
@@ -667,7 +667,7 @@ h1 {
 }
 @media screen and (min-width: 412px) and (max-width: 594px) {
   .fifth_section {
-    padding: 0 0 35px 0;
+    padding: 15px 0 35px 0;
   }
   .fifth_section .google_map {
     height: 260px !important;
@@ -675,7 +675,7 @@ h1 {
 }
 @media screen and (min-width: 380px) and (max-width: 411px) {
   .fifth_section {
-    padding: 0 0 35px 0;
+    padding: 15px 0 35px 0;
   }
   .fifth_section .google_map {
     height: 220px !important;
@@ -683,7 +683,7 @@ h1 {
 }
 @media screen and (min-width: 320px) and (max-width: 379px) {
   .fifth_section {
-    padding: 0 0 35px 0;
+    padding: 15px 0 35px 0;
   }
   .fifth_section .google_map {
     height: 190px !important;
