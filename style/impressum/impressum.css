@@ -224,20 +224,13 @@ h1 {
   text-shadow: black 1px 0 3px;
 }
 .first_section__wrapper img {
-  width: 670px;
-  height: 500px;
-  box-shadow: 5px 5px 5px black;
+  width: 310px;
+  margin-right: 70px;
 }
 .first_section .kontakt__add_info {
   padding: 25px 10px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1364px) {
-  .first_section__wrapper img {
-    width: 530px;
-    height: 345px;
-  }
-}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .first_section__title {
     margin-left: 50px;
@@ -252,8 +245,7 @@ h1 {
     font-size: 20px;
   }
   .first_section__wrapper img {
-    width: 380px;
-    height: 250px;
+    width: 260px;
   }
   .first_section .kontakt__add_info {
     padding: 15px 0;
@@ -283,8 +275,7 @@ h1 {
   .first_section__wrapper img {
     margin-right: 10px;
     align-self: center;
-    width: 100%;
-    height: 370px;
+    width: 230px;
   }
 }
 @media screen and (min-width: 412px) and (max-width: 594px) {
@@ -311,8 +302,7 @@ h1 {
   .first_section__wrapper img {
     margin-right: 10px;
     align-self: center;
-    width: 100%;
-    height: 270px;
+    width: 80%;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 411px) {
@@ -339,8 +329,7 @@ h1 {
   .first_section__wrapper img {
     margin-right: 10px;
     align-self: center;
-    width: 100%;
-    height: 250px;
+    width: 80%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 379px) {
@@ -367,8 +356,7 @@ h1 {
   .first_section__wrapper img {
     margin-right: 10px;
     align-self: center;
-    width: 100%;
-    height: 200px;
+    width: 80%;
   }
 }
 .footer .footer_wrapper .fw_main {

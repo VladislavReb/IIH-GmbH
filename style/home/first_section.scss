@@ -10,7 +10,7 @@
 
     .main_title {
       padding-right: 15px;
-      font-size: 41px;
+      font-size: 37px;
       font-weight: 800;
       color: $corp_color;
       -webkit-text-stroke: 1px;
@@ -42,11 +42,6 @@
       background-color: $corp_color;
       box-shadow: 5px 5px 5px black;
       color: white;
-
-      &:hover {
-        background-color: black;
-        box-shadow: 5px 5px 5px gray;
-      }
     }
   }
 }

@@ -30,11 +30,6 @@
         box-shadow: 5px 5px 5px black;
         color: white;
 
-        &:hover {
-          background-color: black;
-          box-shadow: 5px 5px 5px gray;
-        }
-
         .part1, .part3 {
           transform: translateX(-150%);
           /*animation: block 2.5s forwards;*/

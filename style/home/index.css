@@ -207,7 +207,7 @@ h1 {
 }
 .first_section .fs__first_part .main_title {
   padding-right: 15px;
-  font-size: 41px;
+  font-size: 37px;
   font-weight: 800;
   color: #508CD7;
   -webkit-text-stroke: 1px;
@@ -236,10 +236,6 @@ h1 {
   background-color: #508CD7;
   box-shadow: 5px 5px 5px black;
   color: white;
-}
-.first_section .fs__second_part .home_info:hover {
-  background-color: black;
-  box-shadow: 5px 5px 5px gray;
 }
 
 @media screen and (min-width: 1920px) {
@@ -444,10 +440,6 @@ h1 {
   box-shadow: 5px 5px 5px black;
   color: white;
 }
-.third_section .services .services__part .service:hover {
-  background-color: black;
-  box-shadow: 5px 5px 5px gray;
-}
 .third_section .services .services__part .service .part1, .third_section .services .services__part .service .part3 {
   transform: translateX(-150%);
   /*animation: block 2.5s forwards;*/
@@ -588,12 +580,16 @@ h1 {
   list-style-type: none;
 }
 .fourth_section .slick-dots li > button {
-  width: 11px;
-  height: 11px;
+  width: 14px;
+  height: 14px;
   background-color: #cbc6c6;
   border: 1px solid #cbc6c6;
   border-radius: 25px;
   font-size: 0;
+  cursor: pointer;
+}
+.fourth_section .slick-dots li > button:active {
+  background-color: green;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

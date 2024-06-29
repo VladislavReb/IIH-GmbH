@@ -13,13 +13,15 @@
   &__wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 45px;
-    padding: 10px;
+    margin-bottom: 25px;
 
     .fs_info {
       display: flex;
       flex-direction: column;
       gap: 25px;
+      font-size: 21px;
 
       .fs_title {
         font-size: 23px;
@@ -29,13 +31,138 @@
     }
 
     & img {
-      width: 670px;
-      height: 450px;
-      box-shadow: 5px 5px 5px black;
+      width: 270px;
+      margin-left: 75px;
     }
   }
 
   .kontakt__add_info {
     padding: 25px 0;
+  }
+
+  .fs__add_info__title1 {
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .fs__add_info__title {
+    padding: 10px 0;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .first_section {
+    &__wrapper {
+      & img {
+        width: 270px;
+        margin-left: 35px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .first_section {
+    padding: 50px 0;
+
+    &__title {
+      margin-left: 0;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+
+
+      & img {
+        width: 70%;
+        margin-left: 0;
+      }
+    }
+
+    .fs__add_info__title1 {
+      font-size: 23px;
+    }
+
+    .fs__add_info__title {
+      font-size: 20px;
+    }
+
+    .fs__add_info {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 594px) {
+  .first_section {
+    padding: 50px 0;
+
+    &__title {
+      margin-left: 0;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+
+
+      & img {
+        width: 70%;
+        margin-left: 0;
+      }
+    }
+
+    .fs__add_info__title1 {
+      font-size: 21px;
+    }
+
+    .fs__add_info__title {
+      font-size: 18px;
+    }
+
+    .fs__add_info {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 379px) {
+  .first_section {
+    padding: 50px 0;
+
+    &__title {
+      margin-left: 0;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+
+
+      & img {
+        width: 70%;
+        margin-left: 0;
+      }
+    }
+
+    .fs__add_info__title1 {
+      font-size: 19px;
+    }
+
+    .fs__add_info__title {
+      font-size: 16px;
+    }
+
+    .fs__add_info {
+      font-size: 16px;
+    }
   }
 }
