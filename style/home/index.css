@@ -213,7 +213,7 @@ h1 {
   color: #0A69B3;
   -webkit-text-stroke: 1px;
   line-height: 55px;
-  text-shadow: #0A69B3 1px 0 5px;
+  text-shadow: #0A69B3 1px 0 1px;
 }
 .first_section .fs__first_part .main_img {
   width: 700px;
@@ -585,7 +585,6 @@ h1 {
 }
 .fourth_section .slick-dots li {
   list-style-type: none;
-  display: flex;
 }
 .fourth_section .slick-dots li > button {
   width: 14px;
