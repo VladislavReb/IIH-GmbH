@@ -579,7 +579,8 @@ h1 {
   transform: scale(1.3);
 }
 .fourth_section .slick-dots {
-  display: flex;
+  width: 150px;
+  display: flex !important;
   flex-direction: row !important;
   gap: 10px;
 }
