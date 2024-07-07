@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Montserrat:wght@200;300&family=Open+Sans:wght@300;400&family=Paytone+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300;400&family=Paytone+One&display=swap");
+@import '/node_modules/normalize.css/normalize.css';
 * {
   padding: 0;
   margin: 0;
@@ -562,6 +563,11 @@ h1 {
   box-shadow: 0 10px 10px black;
   margin-bottom: 23px;
 }
+.fourth_section .slick-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .fourth_section .slick-slider {
   display: flex;
   flex-direction: column;
@@ -578,6 +584,7 @@ h1 {
 }
 .fourth_section .slick-dots li {
   list-style-type: none;
+  display: flex;
 }
 .fourth_section .slick-dots li > button {
   width: 14px;

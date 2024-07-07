@@ -33,6 +33,12 @@
     }
   }
 
+  .slick-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
   .slick-slider {
     display: flex;
     flex-direction: column;
@@ -52,6 +58,7 @@
 
   .slick-dots li {
     list-style-type: none;
+    display: flex;
   }
 
   .slick-dots li > button {

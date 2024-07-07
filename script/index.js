@@ -24,10 +24,12 @@ observerSecond.observe(targetElem);
 // Slider library logic.
 $(document).ready(function(){
     $('.autoplay').slick({
-        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 2000,
+        swipe: true,
+        touchMove: true,
+        infinite: true,
         centerMode: true,
         centerPadding: 0,
         variableWidth: true,
@@ -56,17 +58,13 @@ $(document).ready(function(){
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    nextArrow: false,
-                    prevArrow: false,
                 }
             },
             {
                 breakpoint: 595,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
-                    nextArrow: false,
-                    prevArrow: false,
                 }
             },
             {
@@ -74,8 +72,6 @@ $(document).ready(function(){
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    nextArrow: false,
-                    prevArrow: false,
                 }
             },
             {
@@ -83,8 +79,6 @@ $(document).ready(function(){
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    nextArrow: false,
-                    prevArrow: false,
                 }
             },
             {
@@ -92,8 +86,6 @@ $(document).ready(function(){
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    nextArrow: false,
-                    prevArrow: false,
                 }
             }
         ]
