@@ -53,6 +53,7 @@
 
   .slick-dots {
     display: flex;
+    flex-direction: row !important;
     gap: 10px;
   }
 

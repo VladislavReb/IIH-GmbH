@@ -24,6 +24,7 @@ observerSecond.observe(targetElem);
 // Slider library logic.
 $(document).ready(function(){
     $('.autoplay').slick({
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -31,12 +32,10 @@ $(document).ready(function(){
         touchMove: true,
         infinite: true,
         centerMode: true,
-        centerPadding: 0,
         variableWidth: true,
         nextArrow: false,
         prevArrow: false,
         dots: true,
-        speed: 500,
         responsive: [
             {
                 breakpoint: 1365,

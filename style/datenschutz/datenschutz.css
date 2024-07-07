@@ -100,7 +100,7 @@ h1 {
 .header .nav_bar__link {
   font-size: 18px;
   font-weight: 600;
-  color: #508CD7;
+  color: #0A69B3;
 }
 .header .nav_bar :hover {
   text-decoration: underline;
@@ -150,7 +150,7 @@ h1 {
   .header .mob_header__dash div {
     width: 34px;
     height: 3px;
-    background-color: #508CD7;
+    background-color: #0A69B3;
     flex-shrink: 0;
   }
   .header .mob_header__content {
@@ -190,7 +190,7 @@ h1 {
     color: #000;
   }
   .header .mob_header__content > a:hover {
-    color: #508CD7;
+    color: #0A69B3;
   }
   .header .mob_header__content > img {
     align-self: end;
@@ -209,7 +209,7 @@ h1 {
   font-weight: 600;
   text-align: center;
   margin-bottom: 35px;
-  text-shadow: #508CD7 1px 0 4px;
+  text-shadow: #0A69B3 1px 0 4px;
 }
 .first_section__par {
   font-size: 17px;
